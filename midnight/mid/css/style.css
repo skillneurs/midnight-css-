@@ -1,0 +1,273 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/*container*/
+.container{
+    padding: 3.2rem 8rem;
+}
+/* Set root font-size @10px equivalent */
+html {
+    font-size: 62.5%;
+}
+/*FONTS*/
+h1{
+    font-size: 48px;
+    color: #fff;
+}
+h2{
+    font-size: 40px;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to left,#FF00EA,#2AC9FF) 1 ;
+}
+h3{
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 3.6rem;
+    max-width: 27.6rem;
+    max-height: 14.7rem;
+}
+h1,h2{
+    font-weight: 600;
+    line-height: 1.2;
+}
+p{
+    font-size: 1.8rem;
+}
+/*LIENS*/
+a{
+    font-family:"Open Sans" ;
+}
+.hero{
+    background-color: #170217;
+}
+.hero p{
+    color: white;
+}
+.login{
+    color:#2AC9FF;
+    ;
+}
+.signup{
+    color :#FF00EA;
+}
+/*header*/
+header{
+    background-color: #170217;
+}
+/*HERO*/
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: white;
+}
+.gradient{
+    background: linear-gradient(90deg, #FF00EA 0%,#2AC9FF 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+section p{
+    color: green;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+nav li{
+    list-style-type: none;
+}
+.bouton {
+    padding: 6px 30px;
+    background-color: lightblue;
+}
+.bouton_primaire{
+    display: block;
+    background: linear-gradient(to left,#FF00EA,#2AC9FF);
+    color: #fff;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    gap: 10px;
+}
+.bouton_primaire:after{
+    content: url("/images/Arrow_1.svg");
+
+}
+.bouton_secondaire{
+    padding: 10px;
+    color: #fff;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to left,#FF00EA,#2AC9FF) 1 ;
+}
+h2{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: black;
+}
+/*section main*/
+img[src*="picto"]{
+    max-width: 100px;
+}
+main h3{
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2.1rem;
+   
+}
+
+main ul li{
+    list-style-type: none;
+}
+main ul li{
+    border: 3px solid;
+    border-image: linear-gradient(to left,#FF00EA,#2AC9FF) 1 ;
+}
+/*section tarifs*/
+
+#tarifs{
+    background-image: linear-gradient(rgb ca va trop vite merde);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+#tarifs h2, #tarifs li, #tarifs p{
+    color: #fff;
+}
+
+#tarifs ul li p:not(.degrade){
+    background : linear-gradient(to left, #2AC9FF);
+    background-clip: text;
+    -webkit-text-fill-color: none;
+}
+#tarifs div ul li{
+    list-style-type: disc;
+}
+#tarifs div>ul>li{
+    list-style-type: none;
+    background-color: #170217;
+}
+.degrade{
+    padding: 10px 40px;
+    background: linear-gradient(to left,#FF00EA,#2AC9FF) 1;
+    color: #fff;
+    font-size: 1.6rem;
+}
+#form form input[type="text"]{
+    min-height: 6rem;
+}
+#form form textarea{
+    min-height: 21.5em;
+    resize: none;
+}
+#form form button{
+    display: block;
+    padding: 7px 40px;
+    background: linear-gradient(to left,#FF00EA,#2AC9FF);
+    color: #fff;
+    border: none;
+}
+.container form div {
+    display: flex;
+    justify-content: flex-end;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav ul li {
+    float: left;
+  }
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
+.perso{
+    max-width: 618px;
+    max-height: 785px;
+    margin-bottom: -32px;
+}
+.acc{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem ;
+}
+.hero .container{
+display: flex  ;
+flex-direction: row;
+}
+.bduo{
+    display: flex;
+    gap: 20px;
+}
+.img{
+    margin-right: 650px;
+}
+.ov{
+    font-size: 40px;
+}
+.pictot{
+    display: flex;
+    justify-content: space-between;
+}
+.bduo2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 45px;
+    margin-bottom: 100px;
+    font-size: 16px;
+}
+.bouton_secondairee{
+    padding: 10px;
+    color: black;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to left,#FF00EA,#2AC9FF) 1 ;
+}
+.picto{
+    border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #2AC9FF, #FF00EA);
+  margin-right: 3.8rem;
+  max-width: 28rem;
+  max-height: 28rem;
+}
+main ul{
+    margin-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+    justify-content: space-between;
+    padding-inline-start: 0px;
+    max-height: 28rem;
+}
+
+main li{
+    list-style-type: none;
+}
+
+main img{
+    margin-left: 9rem;
+    margin-top: 4.2rem;
+}
+
+main[src*="picto"] {
+    max-width: 10rem;
+}
+

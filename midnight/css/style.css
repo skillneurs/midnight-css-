@@ -1,0 +1,205 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/*container*/
+.container{
+    padding: 3.2rem 8rem;
+}
+
+/* Set root font-size @10px equivalent */
+html {
+    font-size: 62.5%;
+}
+
+/*FONTS*/
+h1{
+    font-size: 48px;
+    color: #fff;
+}
+
+h2{
+    font-size: 40px;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to left,#FF00EA,#2AC9FF) 1 ;
+}
+
+h3{
+    font-size: 40px;
+}
+
+h1,h2{
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+/*LIENS*/
+a{
+    font-family:"Open Sous" ;
+}
+
+.hero{
+    background-color: #170217;
+}
+
+.hero p{
+    color: white;
+}
+
+.login{
+    color:#2AC9FF;
+    ;
+}
+
+.signup{
+    color :#FF00EA;
+
+}
+
+/*header*/
+header{
+    background-color: #170217;
+}
+
+/*HERO*/
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: white;
+}
+
+.gradient{
+    background: linear-gradient(90deg, #FF00EA 0%,#2AC9FF 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+section p{
+    color: green;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+.bouton {
+    padding: 6px 30px;
+    background-color: lightblue;
+}
+
+.bouton_primaire{
+    display: block;
+    padding: 7px 40px;
+    background: linear-gradient(to left,#FF00EA,#2AC9FF);
+    color: #fff;
+}
+
+.bouton_primaire::after{
+    content: url("../images/Arrow_1.svg");
+    margin-left: 1rem;
+}
+
+
+.bouton_secondaire{
+    padding: 10px;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to left,#FF00EA,#2AC9FF) 1 ;
+}
+
+h2{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: black;
+}
+
+/*section main*/
+img[src*="picto"]{
+    max-width: ;
+}
+
+main>div>a{
+    color: #170217;
+}
+
+main ul li{
+    list-style-type: none;
+}
+
+main ul li{
+    border: 3px solid;
+    border-image: linear-gradient(to left,#FF00EA,#2AC9FF) 1 ;
+}
+
+/*section tarifs*/
+
+#tarifs{
+    background-image: url(../images/de59487de7f8a4418af6ad293fec90c8.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+#tarifs ul li p:not(.degrade){
+    background: linear-gradient(90deg, #FF00EA 0%,#2AC9FF 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#tarifs h2,#tarifs li,#tarifs p{
+    color: white;
+}
+
+#tarifs div ul li{
+    list-style-type: disc;
+}
+
+#tarifs div>ul>li{
+    list-style-type: none;
+    background-color: black;
+}
+
+section div div a{
+    color: white;
+}
+
+/*Stylisation mise en avant "populaire"*/
+.degrade{
+    background: linear-gradient(90deg, #FF00EA 0%,#2AC9FF 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 10px 40px;
+}
+
+#form form input[type="text"]{
+    min-height: 6rem;
+}
+
+#form form textarea{
+    min-height: 21.5em;
+    resize: none;
+}
+
+#form form button{
+    display: block;
+    padding: 7px 40px;
+    background: linear-gradient(to left,#FF00EA,#2AC9FF);
+    color: #fff;
+    border: none;
+}
+
+/*Footer*/
+footer{
+    background-color: black;
+}
